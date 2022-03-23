@@ -1,4 +1,4 @@
-/*
+
 var ta1= ["1","2","3"],
     ta2= ["100","2","1","10"];
 
@@ -13,7 +13,7 @@ function comelem(ta1,ta2){
     }
 }
 console.log(comelem(ta1,ta2));
-*/
+
 //
 const objec = (obj, source) =>
   Object.keys(source).every(key => obj.hasOwnProperty(key) && obj[key] === source[key]);
